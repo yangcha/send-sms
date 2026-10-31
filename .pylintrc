@@ -1,0 +1,8 @@
+[FORMAT]
+# Match the flake8 line length used by the CI workflow.
+max-line-length = 127
+
+[MESSAGES CONTROL]
+# Tests access a small helper by name on purpose.
+disable =
+    protected-access
